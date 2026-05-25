@@ -1,0 +1,11 @@
+# Module 1: Object Detection
+ultralytics==8.2.0
+
+# Module 2: Image Processing & OCR
+opencv-python==4.10.0.84
+easyocr==1.7.1
+
+# Module 3: Backend & Deployment
+fastapi==0.111.0
+uvicorn==0.30.1
+python-multipart==0.0.9

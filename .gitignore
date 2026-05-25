@@ -1,0 +1,25 @@
+# Python virtual environments
+venv/
+.venv/
+env/
+__pycache__/
+*.pyc
+
+# Environment variables (keep your API keys safe!)
+.env
+
+# YOLOv8 & Training Outputs
+runs/
+yolov8n.pt
+yolo11n.pt
+*.cache
+
+# Dataset folders (Do not push 1500+ images to Git!)
+datasets/
+Moroccan-ALPR-Detection-*/
+train/
+valid/
+test/
+
+# Jupyter/Colab notebooks checkpoints
+.ipynb_checkpoints/
